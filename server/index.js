@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-const db = require("./db");
+const db = require("./helpers/mongo_init");
 
 const app = express();
 const PORT = process.env.PORT || 8080;
